@@ -27,3 +27,4 @@ chmod a+x run.sh
 ```bash
 python3 app.py
 ```
+Now open up your localhost 0.0.0.0:8080
