@@ -19,6 +19,8 @@ class DataValidationConfig():
 class DataTransformationConfig():
     root_dir: Path
     data_path: Path
+    target: str
+    preprocessor_name: str
 
 @dataclass(frozen=True)
 class ModelTrainerConfig:

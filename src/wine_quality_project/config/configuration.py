@@ -47,8 +47,10 @@ class ConfigurationManager:
         create_directories([config.root_dir])
         data_transformation_config = DataTransformationConfig(
             root_dir=config.root_dir,
-            data_path=config.data_path
-        )   
+            data_path=config.data_path,
+            target= self.schema.TARGET_COLUMN.name,
+            preprocessor_name=config.preprocessor_name
+        )
         return data_transformation_config
     
     def get_model_trainer_config(self)-> ModelTrainerConfig:
