@@ -13,6 +13,11 @@
 
 ## How to run?
 ### STEPS:
+
+```bash
+git clone https://github.com/nhanth301/wine-quality-prediction.git
+```
+
 ```bash
 cd wine-quality-prediction
 ```
