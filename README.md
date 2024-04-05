@@ -1,15 +1,11 @@
 # red-wine-quality-prediction
 
-## Workflows
-1. update config.yaml
-2. update schema.yaml
-3. update params.yaml
-4. update the entity
-5. update the configuration manager in src config
-6. update the components
-7. update the pipeline
-8. update the main.py
-9. update the app.py
+## Introduction
+This project focuses on predicting the quality of red wine based on its chemical attributes. In this project, we build a prediction model using machine learning techniques and an end-to-end workflow.
+
+## Objectives
+- Develop a reliable model for predicting red wine quality based on chemical characteristics.
+- Execute an end-to-end workflow from data collection, preprocessing, model building, evaluation, to deployment.
 
 ## How to run?
 ### Run locally
