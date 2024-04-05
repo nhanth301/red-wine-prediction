@@ -16,6 +16,9 @@
 ```bash
 cd wine-quality-prediction
 ```
+```bash
+chmod a+x run.sh
+```
 
 ```bash
 ./run.sh
