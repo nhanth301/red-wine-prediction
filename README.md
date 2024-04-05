@@ -76,7 +76,7 @@ Now open up your localhost 0.0.0.0:8080
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 136566696263.dkr.ecr.us-east-1.amazonaws.com/mlproject
+    - Save the URI: 444569023166.dkr.ecr.us-east-1.amazonaws.com/wine-quality-prediction
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
