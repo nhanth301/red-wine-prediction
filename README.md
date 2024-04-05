@@ -14,13 +14,13 @@
 ## How to run?
 ### STEPS:
 ```bash
-conda create -n env python=3.8 -y
+cd wine-quality-prediction
 ```
 
 ```bash
-conda activate env
+./run.sh
 ```
 
 ```bash
-pip install -r requirements.txt
+python3 app.py
 ```
