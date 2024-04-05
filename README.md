@@ -16,12 +16,21 @@
 ```bash
 cd wine-quality-prediction
 ```
+
 ```bash
-chmod a+x run.sh
+conda create -n env python=3.8 -y
 ```
 
 ```bash
-./run.sh
+conda activate env
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python3 main.py
 ```
 
 ```bash
