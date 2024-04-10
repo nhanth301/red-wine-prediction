@@ -1,0 +1,7 @@
+artifact_location: /home/thnhan/Documents/GIT/ireuron_end2end/wine-quality-prediction/mlflow_models
+creation_time: 1712724700237
+experiment_id: '824730895580921568'
+last_update_time: 1712725964563
+lifecycle_stage: active
+name: wine_quality_predict
+tags: {}

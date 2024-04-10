@@ -17,9 +17,9 @@ class DataTransformationTrainingPipeline:
                 config = ConfigurationManager()
                 data_transformation_config = config.get_data_transformation()
                 data_transformation = DataTransformation(config=data_transformation_config)
-                train, test = data_transformation.train_test_splitting()
-                preprocessor, train, test = data_transformation.preprocess(train,test)
-                data_transformation.save2artifact(preprocessor,train,test)
+                train,val,test = data_transformation.train_test_splitting()
+                preprocessor,train,val,test = data_transformation.preprocess(train,val,test)
+                data_transformation.save2artifact(preprocessor,train,val,test)
             else:
                 logger.exception(Exception("Your data schema is not valid"))
                 raise Exception("Your data schema is not valid")

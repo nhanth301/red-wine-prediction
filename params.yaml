@@ -1,3 +1,13 @@
-ElasticNet:
-  alpha: 0.2
-  l1_ratio: 0.1
+split_size:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+  
+models:
+  RandomForestRegressor:
+    n_estimators: [50,100,150]
+    criterion: ["squared_error", "absolute_error", "friedman_mse", "poisson"]
+    max_depth: ["None",3,4,5,6,7]
+  ElasticNet:
+    alpha: [0.5, 0.8, 1.0, 1.5]
+    l1_ratio: [0, 0.3, 0.5, 0.8, 1.0]

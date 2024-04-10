@@ -1,0 +1,15 @@
+artifact_uri: /home/thnhan/Documents/GIT/ireuron_end2end/wine-quality-prediction/mlflow_models/2b500cce4eb0458da93f3da8bc804bb5/artifacts
+end_time: 1712723767689
+entry_point_name: ''
+experiment_id: '632839320075731149'
+lifecycle_stage: active
+run_id: 2b500cce4eb0458da93f3da8bc804bb5
+run_name: ElasticNet
+run_uuid: 2b500cce4eb0458da93f3da8bc804bb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712723764981
+status: 3
+tags: []
+user_id: thnhan

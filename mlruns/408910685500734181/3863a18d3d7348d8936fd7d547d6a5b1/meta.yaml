@@ -1,0 +1,15 @@
+artifact_uri: /home/thnhan/Documents/GIT/ireuron_end2end/wine-quality-prediction/mlflow_models/3863a18d3d7348d8936fd7d547d6a5b1/artifacts
+end_time: 1712726114067
+entry_point_name: ''
+experiment_id: '408910685500734181'
+lifecycle_stage: active
+run_id: 3863a18d3d7348d8936fd7d547d6a5b1
+run_name: RandomForestRegressor
+run_uuid: 3863a18d3d7348d8936fd7d547d6a5b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712725967880
+status: 3
+tags: []
+user_id: thnhan

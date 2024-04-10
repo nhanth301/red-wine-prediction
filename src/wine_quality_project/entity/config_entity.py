@@ -20,23 +20,22 @@ class DataTransformationConfig():
     root_dir: Path
     data_path: Path
     target: str
+    split_size: dict
     preprocessor_name: str
 
 @dataclass(frozen=True)
 class ModelTrainerConfig:
     root_dir: Path
     train_data_path: Path
-    test_data_path: Path
-    model_name: str
-    alpha: float
-    l1_ratio: float
+    val_data_path: Path
     target_column: str
+    model_name: str
+    model_params: dict
 
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path
     test_data_path: Path
     model_path: Path
-    all_params: dict
     metrics_file_name: Path
     target_column: str

@@ -12,10 +12,10 @@ class ModelEvaluation:
         self.config = config
     
     def eval_metrics(self, actual, pred):
-        rmse = np.sqrt(mean_squared_error(actual,pred))
+        mse = mean_squared_error(actual,pred)
         mae = mean_absolute_error(actual,pred)
         r2 = r2_score(actual,pred)
-        return rmse, mae, r2
+        return mse, mae, r2
 
     def save_results(self):
         test_data = pd.read_csv(self.config.test_data_path)
@@ -26,6 +26,6 @@ class ModelEvaluation:
 
         predicted_qualities = model.predict(test_x)
 
-        (rmse, mae, r2) = self.eval_metrics(test_y, predicted_qualities)
-        scores = {"rmse": rmse, "mae": mae, "r2" : r2}
+        (mse, mae, r2) = self.eval_metrics(test_y, predicted_qualities)
+        scores = {"mse": mse, "mae": mae, "r2" : r2}
         save_json(path=Path(os.path.join(self.config.root_dir,self.config.metrics_file_name)), data=scores)

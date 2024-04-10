@@ -1,0 +1,12 @@
+creation_timestamp: 1712723767705
+current_stage: None
+description: null
+last_updated_timestamp: 1712723767705
+name: wine_quality_predict
+run_id: a11017dd019646d6990bfef677780710
+run_link: null
+source: runs:/a11017dd019646d6990bfef677780710
+status: READY
+status_message: null
+user_id: null
+version: 1
