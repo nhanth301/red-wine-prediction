@@ -1,6 +1,7 @@
 pandas 
 notebook
 numpy
+mlflow
 scikit-learn
 matplotlib
 python-box==6.0.2
